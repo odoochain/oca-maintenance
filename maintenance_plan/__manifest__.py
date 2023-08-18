@@ -17,7 +17,7 @@
         "views/maintenance_plan_views.xml",
         "views/maintenance_equipment_views.xml",
     ],
-    "external_dependencies": {"python": ["dateutil"]},
+    "external_dependencies": {"python": ["python-dateutil"]},
     "demo": ["data/demo_maintenance_plan.xml"],
     "post_init_hook": "post_init_hook",
     "installable": True,
